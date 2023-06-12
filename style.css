@@ -37,3 +37,18 @@ table.html_tag th {
     padding: 4px;
     width: 33.3333%
 }
+
+@media (max-width: 820px) {
+    tr td:nth-child(2),
+    tr th:nth-child(2) {
+        display : none;
+    }
+
+    table.html_tag td:first-child{
+        width: 30%;
+    }
+
+    table.html_tag td:last-child{
+        width: 70%;
+    }
+}
